@@ -1,0 +1,21 @@
+{
+    "name": "hcg/get-mbr",
+    "description": "根据经纬度,获取'MBR'数据",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "黄翠刚",
+            "email": "532508307@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcg\\GetMbr\\": "src/"
+        }
+    }
+}
