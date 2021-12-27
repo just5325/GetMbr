@@ -14,6 +14,11 @@
 > 如果表里存有100万条数据，数据包含一个lat、lon的经纬度信息。
 > 就可以先根据输入的经纬度和距离得到一个MBR，然后通过类似已下的SQL进行距离筛选了
 
+### 安装
+```
+composer require hcg/get-mbr
+```
+
 ## 使用示例
 ```
 require_once './vendor/autoload.php';
